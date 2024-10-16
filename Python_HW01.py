@@ -45,7 +45,7 @@ class Sphere:
         return f"Sphere object, rad={self.radius}, volume={self.volume():.2f}, surface_area={self.surface_area():.2f}"
 
 
-
+#7-7
 class Employee:
     payRate = [1, 1.2, 1.5]  # 給付的比率
     def __init__(self, base):
