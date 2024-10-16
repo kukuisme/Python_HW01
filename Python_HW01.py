@@ -85,13 +85,8 @@ sphere = Sphere(5)
 print(sphere)
 print(repr(sphere))
 print("-Q.7---------------------")
-# 創建一個員工實例
 tom = Employee(160)
-# 計算工作 8 小時，獎金等級為 1 的員工薪資
 print(tom.salary(10, 1))  # 輸出: 1920.0
-# 更新所有員工的薪資倍率
 Employee.set_payRate([1, 1.3, 1.5])
-# 再次計算薪資，可以看到薪資倍率已經更新
 print(tom.salary(10, 1))  # 輸出: 2080.0
-# 使用靜態方法估算薪資
 print(Employee.estimate(160, 10, 1.25))  # 輸出: 2000
